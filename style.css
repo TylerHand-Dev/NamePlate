@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/bg.jpg);
+    background-size: 110%;
+    background-color: black;
+}
+
+
+.container{
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 400px;
+    width: 50%;
+}
+
+.headshot img{
+    padding: 40px 10px 20px;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1rem black);
+}
+
+.container h1{
+    font-size: 2.5rem;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.container h2{
+    font-size: 1.2rem;
+    padding: 0px 10px 10px 40px;
+    margin: 0 15px 0 0;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.social img{
+    max-width: 50px;
+    margin: 25px 10px 20px 10px;
+}
+
+.social .facebook{
+    background-color: rgba(22, 91, 202, 0.6);
+    border-radius: 100%;
+}
+
+.social .instagram{
+    background-color: rgba(193, 53, 132, 0.6);
+    border-radius: 100%;
+}
+
+.social .twitter{
+    background-color: rgba(22, 91, 202, 0.6);
+    border-radius: 100%;
+}
+
+.social .youtube{
+    background-color: rgba(249, 0, 0, 0.6);
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 530px){
+    .social img{
+        margin: 0px;
+        padding: 0px;
+    }
+}
