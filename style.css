@@ -84,6 +84,11 @@ body{
     border-radius: 100%;
 }
 
+.social .github{
+    background-color: rgba(148, 13, 163, 0.6);
+    border-radius: 100%;
+}
+
 @media screen and (max-width: 530px){
     .social img{
         margin: 0px;
